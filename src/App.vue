@@ -1,21 +1,27 @@
 <template>
   <div id="app">
-    <Practice/>
+    <Base/>
   </div>
 </template>
 
 <script>
-import Practice from './components/Practice.vue';
+import Base from './components/Base.vue';
 
 export default {
   name: 'app',
   components: {
-    Practice,
+    Base,
   },
 };
 </script>
 
 <style>
+html,
+body {
+  background-color: #1e1e1e;
+  overflow: hidden;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
